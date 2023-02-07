@@ -1,0 +1,48 @@
+@import url('./globals.css');
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 500;
+  width: 100%;
+  background: #111;
+}
+
+.link__container {
+  height: 60px;
+  gap: .5em;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  transition: all .2s ease-in;
+}
+
+.link__underline {
+  background: #ffffff00;
+  height: 2px;
+  width: 100%;
+  transition: all .2s ease-in;
+}
+
+.link__container:hover .link__underline {
+  background: var(--primary);
+}
+
+.link__text {
+  transition: all .2s ease-in;
+  font-family: 'DM Sans';
+}
+
+.link__container:hover .link__text {
+  color: var(--primary);
+}
+
+.active:hover .link__underline {
+  background: #00000000;
+}
+
+.active:hover {
+  cursor: default;
+}
