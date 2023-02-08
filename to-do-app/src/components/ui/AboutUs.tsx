@@ -1,4 +1,4 @@
-import { Container, Row, Spacer, Text, Image } from '@nextui-org/react';
+import { Container, Row, Text, Image } from '@nextui-org/react';
 import { motion } from 'framer-motion';
 
 export const AboutUs = () => {

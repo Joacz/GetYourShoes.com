@@ -1,4 +1,4 @@
-import { Container, Link, Row, Spacer, Text } from '@nextui-org/react';
+import { Container, Link, Row, Text } from '@nextui-org/react';
 import React, { FunctionComponent } from 'react';
 import css from '@/styles/ui/navBar.module.css';
 import { motion } from 'framer-motion';
