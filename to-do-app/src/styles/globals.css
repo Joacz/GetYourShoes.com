@@ -7,7 +7,7 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  font-family: Monument;
+  font-family: 'DM Sans';
   font-weight: 100 !important;
   font-smooth: always;
   -webkit-font-smoothing: antialiased;
@@ -23,6 +23,7 @@ h4,
 h5,
 h6 {
   text-transform: uppercase !important;
+  font-family: "Monument";
 }
 
 html,

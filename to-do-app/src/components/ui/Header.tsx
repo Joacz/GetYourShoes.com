@@ -23,7 +23,6 @@ export const Header: FunctionComponent = () => {
           lg={5}
           md={6}
           sm={7}
-          xs={10}
           css={{ flexDirection: 'column', w: 'auto', padding: '5em' }}
         >
           <motion.div
