@@ -12,7 +12,7 @@ export const Header: FunctionComponent = () => {
     >
       <Grid.Container
         className='container-title'
-        justify='left'
+        justify='flex-start'
         css={{
           height: '800px',
         }}
@@ -23,7 +23,7 @@ export const Header: FunctionComponent = () => {
           lg={5}
           md={6}
           sm={7}
-          xs='100%'
+          xs={10}
           css={{ flexDirection: 'column', w: 'auto', padding: '5em' }}
         >
           <motion.div
@@ -34,7 +34,7 @@ export const Header: FunctionComponent = () => {
             <Text h1 size='3.5em'>
               The highest quality shoes in the country
             </Text>
-            <Text p color='$gray600' size='1.3em'>
+            <Text color='$gray600' size='1.3em'>
               Find the best shoes, we distribute for all the country. Modern
               style, customized and a lot of brands. We have the best pricing in
               the world!
