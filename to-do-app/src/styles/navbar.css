@@ -26,10 +26,6 @@
   transition: all .2s ease-in;
 }
 
-.link__container:hover .link__underline {
-  background: var(--primary);
-}
-
 .link__text {
   transition: all .2s ease-in;
   font-family: 'DM Sans';
@@ -39,10 +35,10 @@
   color: var(--primary);
 }
 
-.active:hover .link__underline {
-  background: #00000000;
+.link__container[data-status="active"] .link__underline {
+  background: var(--primary);
 }
 
-.active:hover {
+.link__container[data-status="active"]:hover {
   cursor: default;
 }

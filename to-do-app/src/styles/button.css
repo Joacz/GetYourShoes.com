@@ -1,6 +1,5 @@
 .button {
   animation: disappear .3s ease-in;
-  color: #fff !important;
   font-weight: 700 !important;
   width: 100% !important;
   padding: 1em !important;
@@ -27,7 +26,6 @@
   border-radius: 20px;
   background: linear-gradient(-40deg, #f1a83b 20%, #c14e38 90%);
 }
-
 .shadow {
   position: absolute;
   height: 100%;

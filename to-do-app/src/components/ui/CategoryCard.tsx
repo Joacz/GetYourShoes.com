@@ -21,7 +21,7 @@ export const CategoryCard: FunctionComponent<CardProps> = ({
       style={{ margin: '1em' }}
       whileInView={{ y: 0, opacity: '100%' }}
       initial={{ y: 30, opacity: 0 }}
-      transition={{ bounce: 1, delay: 0.5, ease: 'easeIn', duration: 0.5 }}
+      transition={{ bounce: 1, delay: 0.2, ease: 'easeIn', duration: 0.5 }}
     >
       <Link href={`/products/${id}`}>
         <Card
