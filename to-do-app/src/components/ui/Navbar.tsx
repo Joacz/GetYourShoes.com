@@ -1,6 +1,5 @@
 import { Container, Link, Row, Text } from '@nextui-org/react';
 import React, { FunctionComponent } from 'react';
-import css from '@/styles/ui/navBar.module.css';
 import { motion } from 'framer-motion';
 
 interface NavbarProps {
@@ -11,7 +10,7 @@ export const Navbar: FunctionComponent<NavbarProps> = (current) => {
   return (
     <nav className='navbar'>
       <motion.div animate={{ opacity: '100%' }} initial={{ opacity: '0%' }}>
-        <Container justify='center' align='right' css={{ w: '100%' }}>
+        <Container justify='center' alignItems='flex-start' css={{ w: '100%' }}>
           <Row justify='space-between' align='center'>
             <Link href='/'>
               <Text b>GetYourShoes.com</Text>

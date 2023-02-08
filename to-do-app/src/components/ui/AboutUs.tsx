@@ -8,18 +8,12 @@ export const AboutUs = () => {
       whileInView={{ y: 0, opacity: '100%' }}
       transition={{ duration: 1, ease: 'easeIn', delay: 0.3 }}
     >
-      <Container justify='center' align='center' className='about__container'>
-        <Row
-          justify='start'
-          align='center'
-          className='about_row'
-          css={{ gap: '2em' }}
-        >
+      <Container justify='center' className='about__container'>
+        <Row align='center' className='about_row' css={{ gap: '2em' }}>
           <Text h3 size='4em'>
             About us
           </Text>
           <Text
-            p
             size='1.2em'
             css={{
               minWidth: 200,

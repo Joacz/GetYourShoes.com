@@ -1,6 +1,5 @@
 import { Card, Link, Text } from '@nextui-org/react';
 import { FunctionComponent } from 'react';
-import css from '@/styles/ui/navBar.module.css';
 import { motion } from 'framer-motion';
 
 interface CardProps {
@@ -45,8 +44,8 @@ export const CategoryCard: FunctionComponent<CardProps> = ({
             className='card__header'
             css={{ position: 'absolute', zIndex: 1 }}
           >
-            <Text p>{title}</Text>
-            <Text p>{content}</Text>
+            <Text>{title}</Text>
+            <Text>{content}</Text>
           </Card.Header>
         </Card>
       </Link>

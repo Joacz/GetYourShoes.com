@@ -12,7 +12,7 @@ export const Categories: FunctionComponent = () => {
     >
       <Grid.Container
         justify='center'
-        align='center'
+        alignItems='center'
         className='grid__card__container'
         css={{
           maxWidth: '1920px',
